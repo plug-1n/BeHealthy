@@ -24,10 +24,7 @@
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
   <link rel="shortcut icon" href="favicon.png">
-  <!-- Tweaks for older IEs-->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
 </head>
 
 <body>
@@ -65,41 +62,33 @@
     </nav>
   </header>
   <!-- Hero Section-->
-  <section style="background: url(img/onepunch.jpg); background-size: cover; background-position: center center"
+  <section style="background: url(img/wow.jpg); background-size: cover; background-position: center center;margin-bottom: 100px;"
     class="hero">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
-          <h1>Рациональное питание не имеет временных границ<br>Это образ жизни</h1><a href="#"
-            class="hero-link">Discover More</a>
+        <div class="col-lg-7 ">
+          <a href="#"
+            class="hero-link">
         </div>
 
     </div>
   </section>
-  <!-- Intro Section-->
-  <section class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <h2 class="h3">Почему важно правильно питаться?</h2>
-          <p class="text-big">Исследования продолжают связывать проблемы здоровья с ошибками в питании. Например,
-            сбалансированный рацион может снизить риски развития сердечно-сосудистых заболеваний. Разнообразные и
-            полноценные приемы пищи улучшают все функции организма — от физической работоспособности до когнитивных
-            возможностей мозга. Фактически, пища влияет на все клетки и органы. Если при этом человек занимается
-            спортом, то здоровое питание будет способствовать улучшению показателей и росту достижений.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  
+
   <section class="featured-posts no-padding-top">
+    
     <div class="container">
+      <blockquote class="sidekick text-center" style="margin-bottom:200px">
+        Рациональное питание не имеет временных границ, это образ жизни
+     </blockquote>
       <!-- Post-->
       <div class="row d-flex align-items-stretch">
         <div class="text col-lg-7">
+          
           <div class="text-inner d-flex align-items-center">
             <div class="content">
               <header class="post-header">
-
+                
                 <h2 class="h4">Некоторые принципы правильного питания</h2>
                 </a>
               </header>
@@ -115,11 +104,11 @@
             </div>
           </div>
         </div>
-        <div class="image col-lg-5"><img src="img/featured-pic-1.jpeg" alt="..."></div>
+        <div class="image col-lg-5"><img src="img/my1.jpg" alt="..."></div>
       </div>
       <!-- Post        -->
       <div class="row d-flex align-items-stretch">
-        <div class="image col-lg-5"><img src="img/featured-pic-2.jpeg" alt="..."></div>
+        <div class="image col-lg-5"><img src="img/my2.jpg" alt="..."></div>
         <div class="text col-lg-7">
           <div class="text-inner d-flex align-items-center">
             <div class="content">
@@ -160,18 +149,17 @@
             </div>
           </div>
         </div>
-        <div class="image col-lg-5"><img src="img/featured-pic-3.jpeg" alt="..."></div>
+        <div class="image col-lg-5"><img src="img/my3.jpg" alt="..."></div>
       </div>
     </div>
   </section>
   <!-- Divider Section-->
-  <section style="background: url(img/divider-bg.jpg); background-size: cover; background-position: center bottom"
+  <section style="background: url(img/my4jpg.jpg); background-size: cover; background-position: center bottom;"
     class="divider">
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua</h2><a href="#" class="hero-link">View More</a>
+          <h2>Данный сервис поможет Вам составить план питания, исходя из ваших целей и предпочтений</h2>
         </div>
       </div>
     </div>
@@ -195,14 +183,18 @@
                                 <div class="col-md-6">
                                     <div class="form-group"> <label for="form_lastname">Фамилия</label> <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required."> </div>
                                 </div>
+                                
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group"> <label for="form_email">Почта</label> <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required."> </div>
                                 </div>
                                 <div class="col-md-6">
+                                  <div class="form-group"> <label for="form_lastname">Возраст</label> <input id="form_age" type="nuber" name="surname" class="form-control" required="required" data-error="Lastname is required."> </div>
+                              </div>
+                                <div class="col-md-6">
                                     <div class="form-group"> <label for="form_need">Ваша Цель</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                      <option value="" disabled selected hidden>Выберите конечную цель</option>
+                                      <option value="" disabled selected hidden></option>
                                             <option>Похудеть</option>
                                             <option>Поддерживать свою форму</option>
                                             <option>Набрать мышечную массу</option>
@@ -210,8 +202,8 @@
                                         </select> </div>
                                 </div>
                                 <div class="col-md-6">
-                                  <div class="form-group"> <label for="form_do">Уровень физической активности</label> <select id="form_do" name="do" class="form-control" required="required"  data-error="Please specify your need.">
-                                    <option value="" disabled selected hidden>Выберите Вашу активность</option>
+                                  <div class="form-group"> <label for="form_do">Физическая активность</label> <select id="form_do" name="do" class="form-control" required="required"  data-error="Please specify your need.">
+                                    <option value="" disabled selected hidden></option>
                                           <option>Малоподвижный образ жизни</option>
                                           <option>Среднеактивный образ жизни</option>
                                           <option>Активный образ жизни</option>
@@ -241,58 +233,15 @@
       <div class="row">
         <div class="col-md-4">
           <div class="logo">
-            <h6 class="text-white">Bootstrap Blog</h6>
+            <h6 class="text-white">Полезные ссылки</h6>
           </div>
           <div class="contact-details">
-            <p>53 Broadway, Broklyn, NY 11249</p>
-            <p>Phone: (020) 123 456 789</p>
             <p>Email: <a href="mailto:info@company.com">Info@Company.com</a></p>
-            <ul class="social-menu">
-              <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-            </ul>
+           
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="menus d-flex">
-            <ul class="list-unstyled">
-              <li> <a href="#">My Account</a></li>
-              <li> <a href="#">Add Listing</a></li>
-              <li> <a href="#">Pricing</a></li>
-              <li> <a href="#">Privacy &amp; Policy</a></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li> <a href="#">Our Partners</a></li>
-              <li> <a href="#">FAQ</a></li>
-              <li> <a href="#">How It Works</a></li>
-              <li> <a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="latest-posts"><a href="#">
-              <div class="post d-flex align-items-center">
-                <div class="image"><img src="img/small-thumbnail-1.jpg" alt="..." class="img-fluid"></div>
-                <div class="title"><strong>Hotels for all budgets</strong><span class="date last-meta">October 26,
-                    2016</span></div>
-              </div>
-            </a><a href="#">
-              <div class="post d-flex align-items-center">
-                <div class="image"><img src="img/small-thumbnail-2.jpg" alt="..." class="img-fluid"></div>
-                <div class="title"><strong>Great street atrs in London</strong><span class="date last-meta">October 26,
-                    2016</span></div>
-              </div>
-            </a><a href="#">
-              <div class="post d-flex align-items-center">
-                <div class="image"><img src="img/small-thumbnail-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="title"><strong>Best coffee shops in Sydney</strong><span class="date last-meta">October 26,
-                    2016</span></div>
-              </div>
-            </a></div>
-        </div>
+        
+      
       </div>
     </div>
     <div class="copyrights">
