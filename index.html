@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BeHealthy</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome CSS-->
@@ -24,10 +30,10 @@
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
   <link rel="shortcut icon" href="favicon.png">
-
 </head>
 
 <body>
+  <!-- Start your project here-->
   <header class="header">
     <!-- Main Navbar-->
     <nav class="navbar navbar-expand-lg">
@@ -62,33 +68,33 @@
     </nav>
   </header>
   <!-- Hero Section-->
-  <section style="background: url(img/wow.jpg); background-size: cover; background-position: center center;margin-bottom: 100px;"
+  <section
+    style="background: url(img/wow.jpg); background-size: cover; background-position: center center;margin-bottom: 100px;"
     class="hero">
     <div class="container">
       <div class="row">
         <div class="col-lg-7 ">
-          <a href="#"
-            class="hero-link">
+          <a href="#" class="hero-link">
         </div>
 
-    </div>
+      </div>
   </section>
-  
+
 
   <section class="featured-posts no-padding-top">
-    
+
     <div class="container">
       <blockquote class="sidekick text-center" style="margin-bottom:200px">
         Рациональное питание не имеет временных границ, это образ жизни
-     </blockquote>
+      </blockquote>
       <!-- Post-->
       <div class="row d-flex align-items-stretch">
         <div class="text col-lg-7">
-          
+
           <div class="text-inner d-flex align-items-center">
             <div class="content">
               <header class="post-header">
-                
+
                 <h2 class="h4">Некоторые принципы правильного питания</h2>
                 </a>
               </header>
@@ -122,7 +128,7 @@
                 себе обещание больше никогда не есть хлеб, то однажды сорветесь. Разрешите себе исключения из
                 правильного рациона один-два раза в неделю. Оптимально, если «неполезные» продукты вы будете есть
                 понемногу и после основного сбалансированного приема пищи.</p>
-              
+
 
             </div>
           </div>
@@ -134,18 +140,19 @@
           <div class="text-inner d-flex align-items-center">
             <div class="content">
               <header class="post-header">
-                
-                  <h2 class="h4">Продукты, от которых стоит отказаться</h2>
+
+                <h2 class="h4">Продукты, от которых стоит отказаться</h2>
                 </a>
               </header>
               <p>
                 Правильное питание включает в себя отказ большую часть времени от еды, содержащей много сахара, особенно
-                это касается сладких напитков(риск ожирения и развития диабета).Старайтесь исключать трансжиры, они могут быть причиной болезней
+                это касается сладких напитков(риск ожирения и развития диабета).Старайтесь исключать трансжиры, они
+                могут быть причиной болезней
                 сердца. Также нет смысла есть обработанные продукты с высоким содержанием
                 углеводов, такие как белый хлеб. Они повышают риск переедания и нарушения обмена веществ.
                 Вопреки распространенному заблуждению, обезжиренные продукты — тоже нездоровый вариант, так как часто
                 содержат много сахара и других добавок для улучшения вкуса.</p>
-              
+
             </div>
           </div>
         </div>
@@ -166,67 +173,89 @@
   </section>
   <!-- Form -->
 
-  <div class="container"> <div class=" text-center mt-5 ">
-    <h2>Индивидуальный план питания</h2>
-</div>
-<div class="row ">
-    <div class="col-lg-7 mx-auto">
+  <div class="container">
+    <div class=" text-center mt-5 ">
+      <h2>Индивидуальный план питания</h2>
+    </div>
+    <div class="row ">
+      <div class="col-lg-7 mx-auto">
         <div class="card mt-2 mx-auto p-4 bg-light">
-            <div class="card-body bg-light">
-                <div class="container">
-                    <form id="contact-form" role="form">
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group"> <label for="form_name">Имя</label> <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required."> </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group"> <label for="form_lastname">Фамилия</label> <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required."> </div>
-                                </div>
-                                
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group"> <label for="form_email">Почта</label> <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required."> </div>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="form-group"> <label for="form_lastname">Возраст</label> <input id="form_age" type="nuber" name="surname" class="form-control" required="required" data-error="Lastname is required."> </div>
-                              </div>
-                                <div class="col-md-6">
-                                    <div class="form-group"> <label for="form_need">Ваша Цель</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                      <option value="" disabled selected hidden></option>
-                                            <option>Похудеть</option>
-                                            <option>Поддерживать свою форму</option>
-                                            <option>Набрать мышечную массу</option>
-                                            
-                                        </select> </div>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="form-group"> <label for="form_do">Физическая активность</label> <select id="form_do" name="do" class="form-control" required="required"  data-error="Please specify your need.">
-                                    <option value="" disabled selected hidden></option>
-                                          <option>Малоподвижный образ жизни</option>
-                                          <option>Среднеактивный образ жизни</option>
-                                          <option>Активный образ жизни</option>
-                                          
-                                      </select> </div>
-                              </div>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
-                                </div>
-                                <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
-                            </div>
-                        </div>
-                    </form>
+          <div class="card-body bg-light">
+            <div class="container">
+              <form id="contact-form" role="form">
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group"> <label for="form_name">Имя</label> <input id="form_name" type="text"
+                          name="name" class="form-control" required="required" data-error="Firstname is required.">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group"> <label for="form_lastname">Фамилия</label> <input id="form_lastname"
+                          type="text" name="surname" class="form-control" required="required"
+                          data-error="Lastname is required."> </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group"> <label for="form_email">Почта</label> <input id="form_email" type="email"
+                          name="email" class="form-control" required="required" data-error="Valid email is required.">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group"> <label for="form_lastname">Возраст</label> <input id="form_age"
+                          type="nuber" name="surname" class="form-control" required="required"
+                          data-error="Lastname is required."> </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group"> <label for="form_need">Ваша Цель</label> <select id="form_need"
+                          name="need" class="form-control" required="required" data-error="Please specify your need.">
+                          <option value="" disabled selected hidden></option>
+                          <option>Похудеть</option>
+                          <option>Поддерживать свою форму</option>
+                          <option>Набрать мышечную массу</option>
+
+                        </select> </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group"> <label for="form_do">Физическая активность</label> <select id="form_do"
+                          name="do" class="form-control" required="required" data-error="Please specify your need.">
+                          <option value="" disabled selected hidden></option>
+                          <option>Малоподвижный образ жизни</option>
+                          <option>Среднеактивный образ жизни</option>
+                          <option>Активный образ жизни</option>
+
+                        </select> </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message"
+                          name="message" class="form-control" placeholder="Write your message here." rows="4"
+                          required="required" data-error="Please, leave us a message."></textarea> </div>
+                          <select class="select" multiple data-mdb-placeholder="Example placeholder" multiple>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                          </select>
+
+                    </div>
+                    <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block "
+                        value="Send Message"> </div>
+                  </div>
                 </div>
+              </form>
             </div>
+          </div>
         </div> <!-- /.8 -->
-    </div> <!-- /.row-->
-</div>
-</div>
-  
+      </div> <!-- /.row-->
+    </div>
+  </div>
+
   <!-- Page Footer-->
   <footer class="main-footer">
     <div class="container">
@@ -237,11 +266,11 @@
           </div>
           <div class="contact-details">
             <p>Email: <a href="mailto:info@company.com">Info@Company.com</a></p>
-           
+
           </div>
         </div>
-        
-      
+
+
       </div>
     </div>
     <div class="copyrights">
@@ -259,13 +288,19 @@
       </div>
     </div>
   </footer>
-  <!-- JavaScript files-->
+
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper.js/umd/popper.min.js"> </script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
   <script src="vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
   <script src="js/front.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
 </body>
 
 </html>
