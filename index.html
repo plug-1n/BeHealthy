@@ -106,13 +106,13 @@
                         <input placeholder="Возраст" type="number" min="14" max="91" tabindex="4" required>
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Вес" type="number" min="50" max="200" tabindex="4" required>
+                        <input placeholder="Вес" type="number" min="50" max="200" tabindex="5" required>
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Рост" type="number" min="150" max="210" tabindex="4" required>
+                        <input placeholder="Рост" type="number" min="150" max="210" tabindex="6" required>
                     </fieldset>
                     <fieldset>
-                        <select required>
+                        <select required tabindex="7">
                             <option value="" disabled selected hidden>Ваша цель</option>
                             <option>Похудеть</option>
                             <option>Поддерживать свою форму</option>
@@ -121,7 +121,7 @@
                         </select>
                     </fieldset>
                     <fieldset>
-                        <select required>
+                        <select required tabindex="8">
                             <option value="" disabled selected hidden>Ваш образ жизни</option>
                             <option>Малоподвижный образ жизни</option>
                             <option>Среднеактивный образ жизни</option>
@@ -130,7 +130,7 @@
                         </select>
                     </fieldset>
                     <fieldset>
-                        <select class="multipleChosen" multiple="true">
+                        <select class="multipleChosen" multiple="true" tabindex="9">
                             <option value="1">Молоко</option>
                             <option value="2">Яйца</option>
                             <option value="3">Орехи</option>
@@ -144,10 +144,10 @@
 
                     </fieldset>
                     <fieldset>
-                        <textarea placeholder="Пожелания самому себе" tabindex="5" required></textarea>
+                        <textarea placeholder="Пожелания самому себе" tabindex="10" required></textarea>
                     </fieldset>
                     <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Получить pdf план</button>
+                        <button name="submit" onclick="alert('Ты думал будет басс?')" type="submit" id="contact-submit" data-submit="...Sending">Получить pdf план</button>
                     </fieldset>
                     
                 </form>
