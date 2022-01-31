@@ -53,7 +53,7 @@ main {
 }
 
 #landing-image {
-  background: url('/static/img/main.jpg');
+  background: url('img/main.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,6 +284,7 @@ fieldset {
 }
 input[type='number']{
   width: 210px;
-} 
+}
+
 
 
