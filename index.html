@@ -164,9 +164,12 @@
                     <textarea placeholder="Пожелания самому себе" tabindex="10" required></textarea>
                 </fieldset>
                 <fieldset>
-                    <button name="submit" onclick="alert('Ты думал будет басс?')" type="submit" id="contact-submit"
-                            data-submit="...Sending">Получить pdf план
-                    </button>
+                    <form action="/process_data" method="POST">
+                        <button name="submit"  type="submit" id="contact-submit"
+                        data-submit="...Sending">Получить pdf план
+                </button>
+                    </form>
+                    
                 </fieldset>
 
             </form>
