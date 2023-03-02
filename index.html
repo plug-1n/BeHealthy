@@ -7,191 +7,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeHealty</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.min.css">
     <link rel="stylesheet" href="{{ url_for('static',path='/style.css') }}">
     </style>
 </head>
 
 <body>
-<main>
-    <!-- Landing Area -->
-    <div id="landing">
-        <div id="landing-text">
-            <div id="landing-text-inner">
-                <h1>BeHealthy</h1>
-                <h2>Рациональное питание не имеет временных границ, это образ жизни</h2>
-                <a href="#images" class="btn" id="view-work">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="30" fill="currentColor"
-                         class="bi bi-arrow-down" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                              d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
-                    </svg>
-                </a>
+    <main>
+        <!-- Landing Area -->
+        <div id="landing">
+            <div id="landing-text">
+                <div id="landing-text-inner">
+                    <h1>BeHealthy</h1>
+                    <h2>Рациональное питание не имеет временных границ, это образ жизни</h2>
+                    <a href="#images" class="btn" id="view-work">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="30" fill="currentColor"
+                            class="bi bi-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div id="landing-image"></div>
+        </div>
+
+        <div id="images">
+            <div id="header">
+                <h2>Еда - это необходимость, но разумная еда - это искусство</h2>
+            </div>
+
+            <img src="https://source.unsplash.com/1600x900/?healthy,food" alt="">
+            <div class="caption">
+                <h3>Что такое правильное питание</h3>
+                <p align="justify">Правильное питание – это залог здоровья и красоты человека. Это сбалансированное
+                    питание, которое
+                    насыщает организм человека всеми витаминами, макро- и микроэлементами. Многие люди не понимают
+                    самого понятия правильное питание: кто придумал правила, откуда они взялись.
+
+                    На самом деле правильное питание разработали диетологи. Они выяснили, какое количество углеводов,
+                    жиров и белков необходимо для каждого человека в день. Конечно, для этого была выведена формула,
+                    благодаря которой можно подобрать индивидуальный норматив. Если придерживаться показателям этой
+                    формулы, то человек сбросит лишнее. Если, наоборот, у человека есть недобор, то с помощью
+                    правильного питания он наберет килограммы. В конце концов организм сам поймет, когда следует
+                    остановиться в своем весе.</p>
+            </div>
+            <img src="https://source.unsplash.com/1600x900/?sport" alt="">
+            <div class="caption">
+                <h3>Некоторые принципы правильного питания</h3>
+                <ul>
+                    <li align='justify'>Навсегда забудьте про фастфуд и постарайтесь не злоупотреблять сладким</li>
+                    <li align='justify'>Отдавайте предпочтение сезонным овощам и фруктам</li>
+                    <li align='justify'>Пейте воду. Чай, кофе и соки воду не заменяют</li>
+                    <li align='justify'>Для перекуса или в качестве закуски используйте свежие овощи и фрукты</li>
+                    <li align='justify'>Употребляйте в пищу максимально разнообразные фрукты и овощи, расширяйте
+                        ассортимент привычных
+                        продуктов
+                    </li>
+
+                </ul>
+            </div>
+            <img src="https://source.unsplash.com/1600x900/?alcohol" alt="">
+            <div class="caption">
+                <h3>Продукты, от которых стоит отказаться</h3>
+                <p align='justify'>Правильное питание включает в себя отказ большую часть времени от еды, содержащей
+                    много сахара, особенно
+                    это касается сладких напитков(риск ожирения и развития диабета).Старайтесь исключать трансжиры, они
+                    могут быть причиной болезней
+                    сердца. Также нет смысла есть обработанные продукты с высоким содержанием
+                    углеводов, такие как белый хлеб. Они повышают риск переедания и нарушения обмена веществ.
+                    Вопреки распространенному заблуждению, обезжиренные продукты — тоже нездоровый вариант, так как
+                    часто
+                    содержат много сахара и других добавок для улучшения вкуса.</p>
+            </div>
+            <img src="https://source.unsplash.com/1600x900/?laughing" alt="">
+            <div class="caption">
+                <h3>Все мы люди</h3>
+                <p align='justify'>Нет необходимости исключать продукты, которые не несут особой пользы для организма,
+                    навсегда. Скорее
+                    всего, если вы дадите
+                    себе обещание больше никогда не есть хлеб, то однажды сорветесь. Разрешите себе исключения из
+                    правильного рациона один-два раза в неделю. Оптимально, если «неполезные» продукты вы будете есть
+                    понемногу и после основного сбалансированного приема пищи..</p>
+            </div>
+            <hr>
+            <div class="container">
+                <form id="contact" action="" method="post">
+                    <h3>Генератор плана питания</h3>
+                    <h4>На основе ваших данных</h4>
+                    <fieldset>
+                        <input placeholder="Имя" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужчина</label>
+
+                        <input type="radio" id="female" name="gender" value="female" style="margin-left:40px">
+                        <label for="female">Женщина</label>
+
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Фамилия" type="text" tabindex="2" required autofocus>
+                    </fieldset>
+
+                    <fieldset>
+                        <input placeholder="Почта" type="email" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Возраст" type="number" min="14" max="91" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Вес" type="number" min="50" max="200" tabindex="5" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Рост" type="number" min="150" max="210" tabindex="6" required>
+                    </fieldset>
+                    <fieldset>
+                        <select required tabindex="7">
+                            <option value="" disabled selected hidden>Ваша цель</option>
+                            <option>Похудеть</option>
+                            <option>Поддерживать свою форму</option>
+                            <option>Набрать мышечную массу</option>
+
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <select required tabindex="8">
+                            <option value="" disabled selected hidden>Физическая активность</option>
+                            <option>Физическая нагрузка отсутсвует или минимальная</option>
+                            <option>Тренировки средней тяжести 3 раза в неделю</option>
+                            <option>Тренировки средней тяжести 5 раз в неделю</option>
+                            <option>Интенсивные тренировки 5 раз в неделю</option>
+                            <option>Тренировки каждый день</option>
+                            <option>Интенсивные тренировки каждый день или по 2 раза в день</option>
+                            <option>Ежедневная нагрузка + физическая работа</option>
+
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <select class="multipleChosen" multiple="true" tabindex="9">
+                            <option value="1">Молоко</option>
+                            <option value="2">Яйца</option>
+                            <option value="3">Орехи</option>
+                            <option value="4">Мёд</option>
+                            <option value="5">Рыба</option>
+                            <option value="6">Свинина</option>
+                            <option value="6">Грибы</option>
+                        </select>
+
+
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Пожелания самому себе" tabindex="10" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" onclick="alert('Ты думал будет басс?')" type="submit" id="contact-submit"
+                            data-submit="...Sending">Получить pdf план
+                        </button>
+                    </fieldset>
+
+                </form>
             </div>
         </div>
-        <div id="landing-image"></div>
-    </div>
+    </main>
 
-    <div id="images">
-        <div id="header">
-            <h2>Еда - это необходимость, но разумная еда - это искусство</h2>
-        </div>
-
-        <img src="https://source.unsplash.com/1600x900/?healthy,food" alt="">
-        <div class="caption">
-            <h3>Что такое правильное питание</h3>
-            <p align="justify">Правильное питание – это залог здоровья и красоты человека. Это сбалансированное
-                питание, которое
-                насыщает организм человека всеми витаминами, макро- и микроэлементами. Многие люди не понимают
-                самого понятия правильное питание: кто придумал правила, откуда они взялись.
-
-                На самом деле правильное питание разработали диетологи. Они выяснили, какое количество углеводов,
-                жиров и белков необходимо для каждого человека в день. Конечно, для этого была выведена формула,
-                благодаря которой можно подобрать индивидуальный норматив. Если придерживаться показателям этой
-                формулы, то человек сбросит лишнее. Если, наоборот, у человека есть недобор, то с помощью
-                правильного питания он наберет килограммы. В конце концов организм сам поймет, когда следует
-                остановиться в своем весе.</p>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?sport" alt="">
-        <div class="caption">
-            <h3>Некоторые принципы правильного питания</h3>
-            <ul>
-                <li align='justify'>Навсегда забудьте про фастфуд и постарайтесь не злоупотреблять сладким</li>
-                <li align='justify'>Отдавайте предпочтение сезонным овощам и фруктам</li>
-                <li align='justify'>Пейте воду. Чай, кофе и соки воду не заменяют</li>
-                <li align='justify'>Для перекуса или в качестве закуски используйте свежие овощи и фрукты</li>
-                <li align='justify'>Употребляйте в пищу максимально разнообразные фрукты и овощи, расширяйте
-                    ассортимент привычных
-                    продуктов
-                </li>
-
-            </ul>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?alcohol" alt="">
-        <div class="caption">
-            <h3>Продукты, от которых стоит отказаться</h3>
-            <p align='justify'>Правильное питание включает в себя отказ большую часть времени от еды, содержащей
-                много сахара, особенно
-                это касается сладких напитков(риск ожирения и развития диабета).Старайтесь исключать трансжиры, они
-                могут быть причиной болезней
-                сердца. Также нет смысла есть обработанные продукты с высоким содержанием
-                углеводов, такие как белый хлеб. Они повышают риск переедания и нарушения обмена веществ.
-                Вопреки распространенному заблуждению, обезжиренные продукты — тоже нездоровый вариант, так как
-                часто
-                содержат много сахара и других добавок для улучшения вкуса.</p>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?laughing" alt="">
-        <div class="caption">
-            <h3>Все мы люди</h3>
-            <p align='justify'>Нет необходимости исключать продукты, которые не несут особой пользы для организма,
-                навсегда. Скорее
-                всего, если вы дадите
-                себе обещание больше никогда не есть хлеб, то однажды сорветесь. Разрешите себе исключения из
-                правильного рациона один-два раза в неделю. Оптимально, если «неполезные» продукты вы будете есть
-                понемногу и после основного сбалансированного приема пищи..</p>
-        </div>
-        <hr>
-        <div class="container">
-            <form id="contact" action="" method="post">
-                <h3>Генератор плана питания</h3>
-                <h4>На основе ваших данных</h4>
-                <fieldset>
-                    <input placeholder="Имя" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                  <fieldset>
-                    <input type="radio" id="male"
-                           name="gender" value="male">
-                    <label for="male">Мужчина</label>
-
-                    <input type="radio" id="female"
-                           name="gender" value="female" style="margin-left:40px">
-                    <label for="female">Женщина</label>
-
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Фамилия" type="text" tabindex="2" required autofocus>
-                </fieldset>
-
-                <fieldset>
-                    <input placeholder="Почта" type="email" tabindex="3" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Возраст" type="number" min="14" max="91" tabindex="4" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Вес" type="number" min="50" max="200" tabindex="5" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Рост" type="number" min="150" max="210" tabindex="6" required>
-                </fieldset>
-                <fieldset>
-                    <select required tabindex="7">
-                        <option value="" disabled selected hidden>Ваша цель</option>
-                        <option>Похудеть</option>
-                        <option>Поддерживать свою форму</option>
-                        <option>Набрать мышечную массу</option>
-
-                    </select>
-                </fieldset>
-                <fieldset>
-                    <select required tabindex="8">
-                        <option value="" disabled selected hidden>Физическая активность</option>
-                        <option>Физическая нагрузка отсутсвует или минимальная</option>
-                        <option>Тренировки средней тяжести 3 раза в неделю</option>
-                        <option>Тренировки средней тяжести 5 раз в неделю</option>
-                        <option>Интенсивные тренировки 5 раз в неделю</option>
-                        <option>Тренировки каждый день</option>
-                        <option>Интенсивные тренировки каждый день или по 2 раза в день</option>
-                        <option>Ежедневная нагрузка + физическая работа</option>
-
-                    </select>
-                </fieldset>
-                <fieldset>
-                    <select class="multipleChosen" multiple="true" tabindex="9">
-                        <option value="1">Молоко</option>
-                        <option value="2">Яйца</option>
-                        <option value="3">Орехи</option>
-                        <option value="4">Мёд</option>
-                        <option value="5">Рыба</option>
-                        <option value="6">Свинина</option>
-                        <option value="6">Грибы</option>
-                    </select>
+    <footer>
+        <h3>Полезные ссылки</h3>
+        <p><a href="https://style.rbc.ru/health/601c3aad9a79473506f6a910">Что такое правильное питание</a></p>
+        <p><a href="https://edufit.ru/edufitblog/bzhu_dlya_pohudenia">Что такое бжу и зачем его считать</a></p>
+        <p><a href="https://general-food.ru/stati/pravilnoe-pitanie-glavnye-printsipy/">Основные принципы правильного
+                питания</a></p>
+        <p>Если у вас растройство пищевого поведения, то лучшим решением будет обратиться к специалисту</p>
 
 
-                </fieldset>
-                <fieldset>
-                    <textarea placeholder="Пожелания самому себе" tabindex="10" required></textarea>
-                </fieldset>
-                <fieldset>
-                    <button name="submit" onclick="alert('Ты думал будет басс?')" type="submit" id="contact-submit"
-                            data-submit="...Sending">Получить pdf план
-                    </button>
-                </fieldset>
-
-            </form>
-        </div>
-    </div>
-</main>
-
-<footer>
-    <h3>Полезные ссылки</h3>
-    <p><a href="https://style.rbc.ru/health/601c3aad9a79473506f6a910">Что такое правильное питание</a></p>
-    <p><a href="https://edufit.ru/edufitblog/bzhu_dlya_pohudenia">Что такое бжу и зачем его считать</a></p>
-    <p><a href="https://general-food.ru/stati/pravilnoe-pitanie-glavnye-printsipy/">Основные принципы правильного
-        питания</a></p>
-    <p>Если у вас растройство пищевого поведения, то лучшим решением будет обратиться к специалисту</p>
+    </footer>
 
 
-</footer>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-<script src="{{ url_for('static',path='/script.js') }}"></script>
+    <script src="{{ url_for('static',path='/script.js') }}"></script>
 </body>
 
 </html>
